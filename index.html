@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOA</title>
     <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
       a {
         color: inherit;
         text-decoration: none;
@@ -12,12 +16,28 @@
       a:hover {
         text-decoration: underline;
       }
+      .content {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        width: min(400px, calc(100vw - 140px));
+      }
+      @media screen and (max-width: 600px) {
+        .content {
+          left: 20px;
+          top: 40px;
+          width: calc(100vw - 40px);
+          font-size: 20px;
+        }
+      }
     </style>
   </head>
   <body>
-    <div style="font-family: 'Times New Roman', Times, serif; font-size: 24px">
-      Griffin Ofiesh (b.&nbsp;1988) is an architect and designer based in
-      Brooklyn.<br /><br />
+    <div class="content">
+      Griffin Ofiesh (b.&nbsp;1988) is a registered architect in New York. His work engages architecture across building, interior, and installation scales. He holds a Master of Architecture from Princeton University anda Bachelor of Architecture from Virginia Tech.<br /><br />
+      Prior to founding GOA, Griffin worked at several award-winning firms in NYC on cultural, institutional, and residential projects. His work includes the technical design of <a href="https://www.aiany.org/architecture/featured-projects/view/lasting-joy-brewery/">Lasting Joy Brewery</a> at <a href="https://www.auver.com/">Auver Architecture</a>; the exterior envelope of the <a href="https://magazine.wellesley.edu/issues/spring-2022/science-made-visible">Wellesley College Science Center</a> at <a href="https://www.som.com/">SOM</a>; residential developments in New York and London at <a href="https://www.thomasjuulhansen.com/">Thomas Juul-Hansen LLC</a>, including <a href="https://voiledor.com/property/belgravia-gate/">Belgravia Gate</a>; and <a href="https://soa.princeton.edu/content/14th-venice-biennale%3A-legible-pompeii">Legible Pompeii</a>, an installation designed at <a href="https://mos.nyc/">MOS Architects</a> for the Venice Architecture Biennale.<br /><br />
       griffin@goa.nyc<br />
       <a href="https://www.instagram.com/griffinofiesh/">@griffinofiesh</a>
     </div>
